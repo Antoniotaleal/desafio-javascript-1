@@ -1,17 +1,22 @@
 function calculaTarifa(idade, tipoUsuario){
-        switch(idade) { 
-            case 'menor de 6 anos':
+
+    switch(tipoUsuario, idade) { 
+        case 'estudante':
+            return 1.25;
+            break;
+        case 'regular':
+            return 2.50;
+        case 'menor de 6 anos':
                 return 0;
                 break;
-            case 'maior de 60 anos':
+        case 'maior de 60 anos':
                 return 1.75;
-                break;
-            case 'estudante':
-                return 1.25;
-                break;
-            case 'regular':
-                return 2.50;
-        }
     }
-    let tarifa = calculaTarifa('regular');
-    console.log(tarifa)
+}
+    let tarifaIdade = calculaTarifa('maior de 60 anos');
+    console.log (tarifaIdade);
+    let tarifaUsuario = calculaTarifa('');
+    console.log (tarifaUsuario);
+    
+
+    
