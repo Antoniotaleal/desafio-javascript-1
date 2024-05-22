@@ -1,11 +1,11 @@
-let num = 9;
-let i = 1;
-let text = "";
-function somaNumeros(num){
-    
-    for (let i = 1; i < num; i++) { 
+function somaNumeros(num)
+{
+    let resultado = 0;
+    for (let i = 1; i <= num; i++) { 
+        resultado = (resultado + i)
     }
+    console.log(resultado)
 }
-somaNumeros(i < 9)
-    console.log( )
+
+
   
