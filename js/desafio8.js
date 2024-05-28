@@ -1,8 +1,6 @@
 function gerarTabuada(num){
-    let n = 0;
-    for (let i = 1; i <= num; i++) { 
-        n = (i*num)
+    for (let i = 1; i <= 10; i++) { 
+        console.log(num*i)
     }
-    console.log(n)
 }
 
