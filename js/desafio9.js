@@ -1,8 +1,8 @@
-function asteristicos(asteris)
-{
-    let resultado = 0;
-    for (let i = *; i <= asteris; i++) { 
-        resultado = (i + resultado)
+function padraoAsteriscos(num){
+    let resultado = '';
+    for (let i = 1; i <= num; i++) { 
+        resultado += '*';
+        console.log(resultado)
     }
-    console.log(resultado)
+    
 }
