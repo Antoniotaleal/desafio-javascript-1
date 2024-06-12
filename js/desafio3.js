@@ -12,5 +12,3 @@ function calculator(num1, num2, oper){
         return num1 / num2
     };
 }
-let resp = calculator(5, 3, 'soma');
-console.log (resp);

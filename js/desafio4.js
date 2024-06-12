@@ -13,5 +13,3 @@ function calculadora(num1, num2, oper){
             return num1 / num2;
         }
 }
-let result = calculadora(5, 3, 'soma');
-console.log(result)
